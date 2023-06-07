@@ -1,0 +1,8 @@
+body{
+    display: flex;
+    padding: 0 10px;
+    min-height: 100vh;
+    background: #5882c1;
+    align-items: left;
+    justify-content: center;
+  }

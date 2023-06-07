@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:boarder-box;
+    outline:none;
+    text-decoration: none;
+}
+
+   html{
+
+    font-size:62.5%;
+    scroll-behavior: smooth;;
+   }
+
+   .clean{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    margin-top: 50px;
+}
+
+
+
+
+   .header{
+    position:absolute;
+    width:100%;
+    height:auto;
+    padding:1rem;
+    background: rgb(145, 154, 196);
+    color:rgb(131, 70, 211);
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    top:0;
+   }
+
+  .header h2{
+    font-family: 'Roboto';
+    color:black;
+    font-size:3rem;
+    top:0;
+
+  }
+
+  .header a{
+
+
+    color:black;
+    font-size:1.8rem;
+    padding-left:2rem;
+    top:0;
+  }
+
+
+   .img
+   {
+    width:200%;
+    height:100%;
+    position:absolute;
+    bottom:0;
+    z-index: -100;
+    right: 100px;
+    left: 100px;
+    background-color: black;
+
+
+
+   }
+
+
+
+   .Signup_btn{
+	margin-bottom:20px;
+	margin-top:10px;
+	background-color:#2956B2;
+	padding:5px;
+	color:white;
+	width:100%;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;}
+
+    .Login_Btn{
+        margin-top:10px;
+        background-color:#1e2245;
+        padding:5px;
+        color:white;
+        width:100%;
+        text-align:center;
+        font-size:18px;
+        font-weight:bold;
+
+
+   @media(min-aspect-ratio:16/9)
+{
+    .img{
+        width:100%;
+        height:auto;
+
+
+    }
+  
+}
+
+@media(max-aspect-ratio:16/9)
+{
+    .img{
+        width:auto;
+        height:100%;
+        
+
+    }
+  
+
+}
+}
+
